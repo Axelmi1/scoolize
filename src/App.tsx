@@ -18,7 +18,7 @@ export default function App() {
         <Header />
         <main className="pt-16">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<LoginPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/preparer" element={<PreparerPage />} />
             <Route path="/predire" element={<PredirePage />} />
