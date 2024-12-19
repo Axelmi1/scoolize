@@ -9,6 +9,7 @@ import { ContactPage } from './pages/ContactPage';
 import { ApplicationPage } from './pages/ApplicationPage';
 import { AdminDashboard } from './pages/AdminDashboard'; // Tableau de bord Établissement
 import { LoginPage } from './pages/LoginPage';
+import { Home } from 'lucide-react';
 
 export default function App() {
   // Aucune condition d'accès ici, toutes les pages sont accessibles librement.
@@ -18,7 +19,7 @@ export default function App() {
         <Header />
         <main className="pt-16">
           <Routes>
-            <Route path="/" element={<LoginPage />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/preparer" element={<PreparerPage />} />
             <Route path="/predire" element={<PredirePage />} />
